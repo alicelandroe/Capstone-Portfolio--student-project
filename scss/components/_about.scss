@@ -2,18 +2,31 @@
     width: 90%;
     margin: 20px auto;
     text-align: center;
-    @media only screen and (min-width: $break-tablet) {
+    @media only screen and (min-width: $break-small-tablet) {
         display: flex;
+        width: 90%;
+        margin: 50px auto;
+        justify-content: center;
+    }
+    @media only screen and (min-width: $break-tablet) {
     }
 }
 
 .profile-picture {
     height: auto;
-    max-width: 37%;
+    width: 30%;
+    max-width: 30%;
     border-radius: 50%;
-    @media only screen and (min-width: $break-tablet) {
-        max-width: 30%;
+    @media only screen and (min-width: $break-small-tablet) {
+        width: 24%;
+        height: 24%;
+        align-self: center;
     }
+    @media only screen and (min-width: $break-small-tablet) {
+        width: 34%;
+        height: 34%;
+    }
+
 }
 
 .about-text {
@@ -26,13 +39,25 @@
         font-size: 0.9rem;
         margin: 15px auto;
         width: 90%;
+        max-width: 400px;
     }
-    @media only screen and (min-width: $break-tablet) {
+    @media only screen and (min-width: $break-small-tablet) {
         align-self: center;
         text-align: left;
-        margin: 0px 30px;
+        width: 100%;
+        margin-left: 30px;
         & p {
             margin-left: 0px;
+        }
+    }
+    @media only screen and (min-width: $break-tablet) {
+    }
+    @media only screen and (min-width: $break-desktop) {
+        & h1 {
+            font-size: 3.5rem;
+        }
+        & p {
+            font-size: 1.2rem;
         }
     }
 }
