@@ -1,0 +1,38 @@
+#about {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    @media only screen and (min-width: $break-tablet) {
+        display: flex;
+    }
+}
+
+.profile-picture {
+    height: auto;
+    max-width: 37%;
+    border-radius: 50%;
+    @media only screen and (min-width: $break-tablet) {
+        max-width: 30%;
+    }
+}
+
+.about-text {
+    align-self: flex-end;
+    & h1 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+    & p {
+        font-size: 0.9rem;
+        margin: 15px auto;
+        width: 90%;
+    }
+    @media only screen and (min-width: $break-tablet) {
+        align-self: center;
+        text-align: left;
+        margin: 0px 30px;
+        & p {
+            margin-left: 0px;
+        }
+    }
+}
