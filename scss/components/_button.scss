@@ -10,4 +10,7 @@
     &:hover {
         background-color: #a5c0c9;
     }
+    @media only screen and (min-width: $break-tablet) {
+        width: 50%;
+    }
 }

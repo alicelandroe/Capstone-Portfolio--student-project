@@ -13,10 +13,14 @@ footer p {
 
 .social-media-links {
     margin: 0 auto;
+    justify-content: space-evenly;
+    padding-left: 0px;
+    @media only screen and (min-width: $break-small-tablet) {
+        width: 60%;
+    }
 }
 .social-media-links li {
     list-style-type: none;
-    width: 50%;
     padding-top: 1.8em;
     padding-bottom: 1em;
 
