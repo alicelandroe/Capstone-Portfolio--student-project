@@ -2,11 +2,21 @@
     background-color: $light-pink;
 }
 
+#navbarNav {
+        width: 50%;
+}
+
 .navbar-nav {
     display: flex;
     flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-evenly;
 }
 
+
 .nav-link {
-    color: rgba(47,79,79,0.9);
+    color: $gray-text;
+    &:visited {
+        color: $gray-text;
+    }
 }

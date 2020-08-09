@@ -1,5 +1,7 @@
-#projects {
-    font-size: 2.3em;
+#projects { // the h1 for projects
+    font-size: 1.5em;
+    color: $darkest-blue;
+    font-weight: 500;
 }
 
 .width {
@@ -9,9 +11,11 @@
 
 .card-title {
     font-size: 1.3em;
+    color: $darkest-blue;
 }
 
 .card-text {
     text-align: left;
     font-size: 0.9em;
+    color: $gray-text;
 }

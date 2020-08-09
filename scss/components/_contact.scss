@@ -2,6 +2,9 @@
     width: 90%;
     margin: 0 auto;
     padding-bottom: 20px;
+    @media only screen and (min-width: $break-tablet) {
+        width: 50%;
+    }
 }
 
 #contact div, h2, h3, p {
@@ -11,14 +14,18 @@
 #contact h2 {
     font-size: 1.3em;
     margin-top: 20px;
+    color: $dark-blue;
 }
 
 #contact h3 {
     font-size: 0.9em;
     margin-top: 15px;
+    color: #484848;
 }
 
 #contact p {
     font-size: 0.8em;
     margin: 15px 0;
+    color: $gray-text;
+
 }
