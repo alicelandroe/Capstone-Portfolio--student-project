@@ -1,5 +1,10 @@
 .navbar {
-    background-color: #F2CBBB;
+    background-color: $light-pink;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
 }
 
 .nav-link {

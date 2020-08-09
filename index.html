@@ -11,21 +11,14 @@
      <!-- CSS link -->
      <link rel="stylesheet" href="styles/styles.css" type="text/css">
 
-    <title>Alice Portfolio</title>
+    <title>Amandas Portfolio</title>
 
 </head>
 <body>
 <!-- nav -->
-    <nav class="navbar navbar-expand-sm">
-        <button class="navbar-toggler" id="collapse" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon">hello</span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+    <nav class="navbar">
+        <div class="justify-content-center" id="navbarNav">
         <ul class="navbar-nav ml-4">
-            <li class="nav-item">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            </li>
             <li class="nav-item ml-4">
             <a class="nav-link" href="#about">About</a>
             </li>
@@ -40,7 +33,7 @@
     </nav> <!--/nav -->
 
     <div id="about">
-        <img src="woman-square-picture.jpeg" class="img-fluid profile-picture" alt="Profile picture">
+        <img src="images/woman-square-picture.jpeg" class="img-fluid profile-picture" alt="Profile picture">
         <div class="about-text">
             <h1>Hej hej!</h1>
             <p>Jag är en UX designer och front end utvecklare baserad i Göteborg. 
@@ -48,5 +41,93 @@
             <p><em>- Amanda Bergström</em></p>
         </div>
     </div>
+
+    <!-- projects-->
+    <div class="width">
+        <h1 id="projects" class="display-4 text-center my-4 text-muted">Projects</h1>
+        <div class="row">
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="images/signup-form.png" alt="signup form">
+                <div class="card-body">
+                <h4 class="card-title">Sign Up Formulär</h4>
+                <p class="card-text">
+                    I detta projekt byggde jag ett lyhört, mobilvänligt registreringsformulär med en 
+                    mängd olika HTML-formulärinmatningstyper och attribut. 
+                    Med hjälp av de medföljande mockupfilerna byggde jag en 
+                    mobil- och skrivbordsversion av formuläret med media queries och 
+                    en "mobil-först" -metod.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="images/photo-gallery.png" alt="Node Stradamus">
+                <div class="card-body">
+                <h4 class="card-title">Foto Galleri</h4>
+                <p class="card-text">
+                    I detta projekt byggde jag ett interaktivt fotogalleri med 
+                    JavaScript och jQuery. Överst på sidan finns ett sökområde 
+                    där foton döljs och visas beroende på användarens inmatning. 
+                    När användaren klickar på en miniatyrbild kommer fotot att 
+                    visas i en lightbox.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+            <div class="card mb-4">
+                <img class="card-img-top" src="images/wheel-of-success.png" alt="Robbie Redux">
+                <div class="card-body">
+                <h4 class="card-title">Wheel of Success</h4>
+                <p class="card-text">I detta projekt skapade jag en webbläsarversion 
+                    av "Wheel of Success", ett ordgissningsspel där spelare 
+                    klickar på bokstäver från ett tangentbord på skärmen för 
+                    att försöka gissa en slumpmässig fras.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-6 col-lg-4">
+        <div class="card mb-4">
+            <img class="card-img-top" src="images/web-app.png" alt="Ecma Scriptnstuff">
+                <div class="card-body">
+                <h4 class="card-title">Web App Dashboard</h4>
+                <p class="card-text">
+                    I det här projektet byggde jag en webbpanel komplett med JavaScript-driven 
+                    diagram och grafer. Jag skapade alla
+                    HTML-, CSS- och JavaScript-funktioner för den här sidan "från scratch"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- /projects -->
+
+   <section id="contact">
+    <div>
+        <h2>Jag kan hjälpa dig.</h2>
+        <h3>Om du vill samarbeta med att skapa fantastiska upplevelser för människor 
+            - kontakta mig!</h3>
+    </div>
+    <p>Jag är tillänglig för freelance jobb eller anställning.</p>
+    <a href="mailto:email@example.com" class="btn btn-lg btn-block">Meddela mig</a>
+   </section>
+
+   <footer>
+        <ul class="social-media-links d-flex">
+            <li>
+                <a href="https://github.com/" target="_blank">GitHub</a>
+            </li>
+           <li>
+                <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+           </li>
+           <li>
+                <a href="https://dribbble.com/" target="_blank">Dribble</a>
+           </li>
+        </ul>
+        <p>&#169; 2020 Amanda Bergström</p>
+   </footer>
+
    </body>
 </html>
