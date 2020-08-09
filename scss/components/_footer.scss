@@ -18,6 +18,9 @@ footer p {
     @media only screen and (min-width: $break-small-tablet) {
         width: 60%;
     }
+    @media only screen and (min-width: $break-desktop) {
+        width: 30%;
+    }
 }
 .social-media-links li {
     list-style-type: none;
