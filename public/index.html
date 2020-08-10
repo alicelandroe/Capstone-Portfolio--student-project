@@ -21,6 +21,7 @@
 
 </head>
 <body>
+
 <!-- nav -->
     <nav class="navbar justify-content-center">
         <div id="navbarNav">
@@ -47,7 +48,6 @@
                 <p><em>- Amanda Bergström</em></p>
             </div>
     </div>
-
     <!-- projects-->
     <div class="width" id="projekt">
         <h1 id="header" class="display-4 text-center my-4">Projekt</h1>
@@ -137,6 +137,8 @@
     </div>
 </div><!-- /projects -->
 
+
+<!-- Kontakt -->
    <section id="kontakt">
     <h1 id="header" class="display-4 text-center my-4">Kontakt</h1>
     <div>
@@ -144,9 +146,17 @@
             - kontakta mig!</h3>
     </div>
     <p>Jag är tillänglig för freelance jobb eller anställning.</p>
-    <a href="mailto:email@example.com" class="btn btn-lg btn-block">Meddela mig</a>
+    <form>
+        <label for="email">Email Adress</label>
+        <input id ="email" type="text" class="message-user__searchbox" placeholder="Email adress">
+
+        <label for="message">Ditt meddelande</label>
+        <textarea id="message" rows="6" class="message-user__textbox" placeholder="Ditt meddelande"></textarea>
+        <button type="button" class="send-button">Skicka meddelande</button>
+    </form>
    </section>
 
+   <!-- Footer -->
    <footer>
         <ul class="social-media-links d-flex">
             <li>
@@ -161,6 +171,6 @@
         </ul>
         <p>&#169; 2020 Amanda Bergström</p>
    </footer>
-
+   <script src="app.js"></script>
    </body>
 </html>

@@ -1,0 +1,52 @@
+.send-button {
+    font-size: .8em;
+    width: 100%;
+    text-align: center;
+    background: $light-blue;
+    color: $gray-text;
+    margin: 1.5em auto;
+    padding: 15px;
+    border-radius: 3px;
+    border: 0;
+    text-transform: uppercase;
+    &:hover {
+        background-color: #a5c0c9;
+    }
+}
+
+form {
+    @media only screen and (min-width: $break-desktop) {
+        width: 80%;
+        margin: 0 auto;
+        & label {
+            padding-top: 15px;
+        }
+    }
+}
+
+.message-user {
+    padding: 0 7px;
+    padding-bottom: 20px;
+    border-top: 1px solid $gray-text;
+    border-right: 1px solid $gray-text;
+    &__searchbox,
+    &__textbox {
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        display: block;
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+        border-radius: 5px;
+    }
+    &__textbox {
+        resize: none;
+        font-family: 'Roboto', sans-serif;;
+    }
+}
+
+::placeholder {
+    color: rgb(167, 167, 167);
+}
+
+

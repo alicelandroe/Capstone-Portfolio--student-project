@@ -6,6 +6,9 @@
     font-size: 1.5em;
     color: $darkest-blue;
     font-weight: 500;
+    @media only screen and (min-width: $break-desktop) {
+        font-size: 2em;
+    }
 }
 
 .width {

@@ -18,8 +18,8 @@
     @media only screen and (min-width: $break-tablet) {
         width: 50%;
     }
-    @media only screen and (min-width: $break-tablet) {
-        width: 40%;
+    @media only screen and (min-width: $break-desktop) {
+        width: 60%;
         margin: 30px auto;
         margin-top: 50px;
         & h3 {
