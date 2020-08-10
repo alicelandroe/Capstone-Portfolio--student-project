@@ -29,3 +29,14 @@
     font-size: 0.9em;
     color: $gray-text;
 }
+
+.card-btn {
+    background-color: $light-blue;
+    color: $gray-text;
+    &:hover {
+        background-color: #a5c0c9;
+    }
+    &:last-child {
+        margin-left: 10px;
+    }
+}
