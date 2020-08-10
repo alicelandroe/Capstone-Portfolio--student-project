@@ -1,6 +1,6 @@
-const user = document.querySelector('.message-user__searchbox');
-const message = document.querySelector('.message-user__textbox');
-const send = document.querySelector('.send-button');
+const user = document.querySelector(".message-user__searchbox");
+const message = document.querySelector(".message-user__textbox");
+const send = document.querySelector(".send-button");
 
 
 send.addEventListener('click', (e) => {
@@ -16,4 +16,4 @@ send.addEventListener('click', (e) => {
     else {
         alert(`Jag har fått ditt meddelande, tack! :)`);
     }
-})
+});
